@@ -17,4 +17,14 @@ oe -w -c $client
 ## para levantar container de odoo
 oe -r -c $client
 
-#para correr es: ./install_client.sh user_git client_name
+##para correr es:
+# ./install_client.sh user_git client_name
+
+##en caso de que no funcione probar:
+
+##lo siguiente es para ver si levantanta odoo:
+# sd ps
+## en caso de que no, correr de nuevo:
+# sd rmall
+# oe -R
+# oe -r
